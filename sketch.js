@@ -9,9 +9,8 @@ var divisions = [];
 var score = 0;
 var particle;
 var turn;
-var GameState = start;
+var gameState = start;
 var divisionHeight=300;
-var score =0;
 
 function setup() {
   createCanvas(800, 800);
@@ -84,7 +83,7 @@ function draw() {
      plinkos[i].display();
      
    }
-   if(frameCount%60===0){
+   /*if(frameCount%60===0){
      particles.push(new Particle(random(width/2-30, width/2+30), 10,10));
      //score++;
    }
@@ -92,7 +91,7 @@ function draw() {
   for (var j = 0; j < particles.length; j++) {
    
      particles[j].display();
-   }
+   }*/
    for (var k = 0; k < divisions.length; k++) {
      
      divisions[k].display();
