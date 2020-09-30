@@ -9,8 +9,9 @@ var divisions = [];
 var score = 0;
 var particle;
 var turn;
-var gameState = start;
+var gameState = "start";
 var divisionHeight=300;
+var count = 0;
 
 function setup() {
   createCanvas(800, 800);
